@@ -1,0 +1,20 @@
+_BASE_: "Base-Panoptic-FPN.yaml"
+MODEL:
+  WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
+  META_ARCHITECTURE: "PanopticFPNwGraph"
+  RESNETS:
+    DEPTH: 50
+  ROI_HEADS:
+    NUM_CLASSES: 100
+    NAME: "StandardROIHeadswGraph"
+  SEM_SEG_HEAD:
+    NAME: "SemSegFPNHead_DFConvwGraph"
+    LOSS_WEIGHT: 0.3
+    NUM_CLASSES: 51 # 50 + 1
+SOLVER:
+  STEPS: (81000, 110000)
+  MAX_ITER: 121000
+  IMS_PER_BATCH: 8
+  WARMUP_FACTOR: 0.1
+DATALOADER:
+  FILTER_EMPTY_ANNOTATIONS: True
