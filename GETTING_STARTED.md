@@ -59,5 +59,5 @@ To eval a model, use
 
 |Datasets |Google Drive|
 |--------|--------------|
-|ADE20K |[Download link]() |
-|COCO |[Download link]() |
+|ADE20K |[Download link](https://drive.google.com/file/d/16ScCWm4lZJvz6gL5e7i27apbA9C22g5J/view?usp=sharing) |
+|COCO |[Download link](https://drive.google.com/file/d/16ScCWm4lZJvz6gL5e7i27apbA9C22g5J/view?usp=sharing) |
