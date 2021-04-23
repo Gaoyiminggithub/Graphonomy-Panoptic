@@ -52,3 +52,12 @@ To eval a model, use
   --config-file  ./configs/ADE/panoptic_fpn_bs8_R_50_1x_G.yaml \
   --eval-only MODEL.WEIGHTS /path/to/model_weights
 ```
+
+### Models
+
+**Pascal-Person-Part trained model**
+
+|Datasets |Google Cloud|Baidu Yun|
+|--------|--------------|-----------|
+|ADE20K|- |[Download link]() (passport:)|
+|COCO|- |[Download link]() (passport:)|
