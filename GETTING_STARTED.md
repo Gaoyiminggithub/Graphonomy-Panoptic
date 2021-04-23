@@ -14,7 +14,7 @@ detectron2/
       panoptic_{train,val}2017/  # png annotations
       annotations/
         panoptic_{train,val}2017.json
-        panoptic_{train,val}_trans/  # pre-processing panoptic segmentation png annotations
+        panoptic_{train,val}2017_trans/  # pre-processing panoptic segmentation png annotations
 ```
 
 ### ADE20K dataset
