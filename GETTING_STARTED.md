@@ -3,7 +3,7 @@
 ### COCO dataset
 1. Download and extract COCO 2017 train and val images with annotations from [http://cocodataset.org](http://cocodataset.org).
 2. Download panoptic annotations from COCO website
-3. Download the pre-processing panopitc segmentation annotations from here([download link]()).
+3. Download the pre-processing panopitc segmentation annotations from here([Google Drive]()).
 4. prepare the data as the following structure:
 
 ```
@@ -19,7 +19,7 @@ detectron2/
 
 ### ADE20K dataset
 1. Download and extract the ADE20K dataset train and val images from [http://sceneparsing.csail.mit.edu/](http://sceneparsing.csail.mit.edu/).
-2. Download the annotations for panoptic segmentation from here ([download link]())
+2. Download the annotations for panoptic segmentation from here ([Google Drive](https://drive.google.com/file/d/1bFQ9rpG2raxhQSgTk0vqyujcvSHW0QmZ/view?usp=sharing))
 3. prepare the data as the following structure:
 ```
 detectron2/
@@ -55,9 +55,9 @@ To eval a model, use
 
 ### Models
 
-**Pascal-Person-Part trained model**
+**Model weights**
 
-|Datasets |Google Cloud|Baidu Yun|
-|--------|--------------|-----------|
-|ADE20K|- |[Download link]() (passport:)|
-|COCO|- |[Download link]() (passport:)|
+|Datasets |Google Drive|
+|--------|--------------|
+|ADE20K |[Download link]() |
+|COCO |[Download link]() |
