@@ -3,7 +3,7 @@
 ### COCO dataset
 1. Download and extract COCO 2017 train and val images with annotations from [http://cocodataset.org](http://cocodataset.org).
 2. Download panoptic annotations from COCO website
-3. Download the pre-processing panopitc segmentation annotations from here([Google Drive]()).
+3. Download the pre-processing panopitc segmentation annotations from here([Google Drive](https://drive.google.com/file/d/1Yej9MyoPH9B3N7HfWNyG4U_yRHoUknV5/view?usp=sharing)).
 4. prepare the data as the following structure:
 
 ```
