@@ -36,7 +36,7 @@ from .pascal_voc import register_pascal_voc
 _PREDEFINED_SPLITS_ADE_PANOPTIC = {
     "ade_train_panoptic": (
         # Image root
-        "ADE20K_2017/images/train",
+        "ADE20K_2017/images/training",
         # Panoptic root. Note: only in testing
         "None",
         # semsegroot
@@ -48,7 +48,7 @@ _PREDEFINED_SPLITS_ADE_PANOPTIC = {
     ),
     "ade_val_panoptic": (
         # Image root
-        "ADE20K_2017/images/val",
+        "ADE20K_2017/images/validation",
         # Panoptic root. Note: only in testing
         "ADE20K_2017/panoptic_ade20k_val",
         # semsegroot

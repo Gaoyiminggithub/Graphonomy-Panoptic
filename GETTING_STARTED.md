@@ -26,8 +26,8 @@ detectron2/
   datasets/
     ADE20K_2017/
       images/
-        train/
-        val/
+        training/
+        validation/
       new_segment_anno_continuous/
         training/
         validation/
