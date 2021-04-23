@@ -13,7 +13,7 @@ Check [INSTALL.md](INSTALL.md) for careful installation instructions.
 
 ## Getting Started
 
-See [Getting Started](GETTING_STARTED.md) for data preparation and learning about basic usage.
+See [Getting Started](GETTING_STARTED.md) for data preparation and training & evaluation.
 
 ## License
 
