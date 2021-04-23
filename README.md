@@ -1,7 +1,7 @@
 # Graphonomy-Panoptic
 
 ## Intorduction
-This repository provides the implementation of our method described in:
+This repository provides the implementation for panoptic segmentation of our method described in:
 
 [Graphonomy: Universal Image Parsing via Graph Reasoning and Transfer](https://ieeexplore.ieee.org/abstract/document/9286557/).
 
