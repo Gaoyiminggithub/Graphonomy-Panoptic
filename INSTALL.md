@@ -6,7 +6,6 @@ The codebases are built on top of Detectron2, and need to be built from source.
 - Linux or macOS with Python ≥ 3.6
 - PyTorch ≥ 1.6 and [torchvision](https://github.com/pytorch/vision/) that matches the PyTorch installation.
   Install them together at [pytorch.org](https://pytorch.org) to make sure of this
-- OpenCV is optional but needed by demo and visualization
 
 
 ### Build Detectron2 from Source
@@ -29,7 +28,6 @@ old build first. You often need to rebuild detectron2 after reinstalling PyTorch
 Install panopticapi by:
 ```
 pip install git+https://github.com/cocodataset/panopticapi.git
-
 ```
 
 #### Common Installation Issues
