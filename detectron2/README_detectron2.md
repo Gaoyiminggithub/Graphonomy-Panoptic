@@ -24,7 +24,7 @@ to see more demos and learn about detectron2.
 
 ## Installation
 
-See [INSTALL.md](INSTALL.md).
+See [INSTALL.md](../INSTALL.md).
 
 ## Getting Started
 

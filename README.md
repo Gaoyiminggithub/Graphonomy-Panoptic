@@ -9,6 +9,6 @@ This repository is based on [Detectron2](https://github.com/facebookresearch/det
 
 # Installation
 
-Check [INSTALL.md](detectron2/INSTALL.md) for careful installation instructions.
+Check [INSTALL.md](INSTALL.md) for careful installation instructions.
 
 # Getting Started

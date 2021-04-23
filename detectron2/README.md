@@ -7,7 +7,7 @@ This repository is based on the [Detectron2](https://github.com/facebookresearch
 
 ## Installation
 
-See [INSTALL.md](INSTALL.md).
+See [INSTALL.md](../INSTALL.md).
 
 ## Getting Started
 
