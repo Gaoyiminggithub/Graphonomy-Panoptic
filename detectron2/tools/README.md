@@ -6,7 +6,7 @@ This directory contains a few example scripts that demonstrate features of detec
 
 An example training script that's made to train builtin models of detectron2.
 
-For usage, see [GETTING_STARTED.md](../GETTING_STARTED.md).
+For usage, see [GETTING_STARTED.md](../../GETTING_STARTED.md).
 
 * `plain_train_net.py`
 
