@@ -18,7 +18,7 @@ detectron2/
 ```
 
 ### ADE20K dataset
-1. Download and extract the ade train and val images from [http://sceneparsing.csail.mit.edu/](http://sceneparsing.csail.mit.edu/).
+1. Download and extract the ADE20K dataset train and val images from [http://sceneparsing.csail.mit.edu/](http://sceneparsing.csail.mit.edu/).
 2. Download the annotations for panoptic segmentation from here ([download link]())
 3. prepare the data as the following structure:
 ```
