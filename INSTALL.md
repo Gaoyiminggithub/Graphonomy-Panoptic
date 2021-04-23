@@ -14,7 +14,7 @@ gcc & g++ ≥ 5.4 are required. [ninja](https://ninja-build.org/) is recommended
 After having them, git clonge this repository and run:
 ```
 # To install it from a local clone:
-git clone
+git clone https://github.com/Gaoyiminggithub/Graphonomy-Panoptic.git
 cd Graphonomy-Panoptic
 python -m pip install -e detectron2
 
