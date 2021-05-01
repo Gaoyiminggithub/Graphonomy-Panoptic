@@ -464,6 +464,7 @@ _C.MODEL.RETINANET.NORM = ""
 # ---------------------------------------------------------------------------- #
 _C.GRAPH = CN()
 _C.GRAPH.GRAPH_CONNECTION = True
+_C.GRAPH.NAME = "GraphConnection"
 _C.GRAPH.CHANNEL = 128
 _C.GRAPH.HEADS = 2
 _C.GRAPH.STUFF_OUT_CHANNEL = 256

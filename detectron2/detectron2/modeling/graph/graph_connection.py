@@ -16,13 +16,23 @@ from detectron2.modeling.roi_heads.box_head import build_box_head
 from detectron2.modeling.roi_heads.fast_rcnn import FastRCNNOutputLayers
 from detectron2.modeling.roi_heads.mask_head import build_mask_head
 from detectron2.structures import Boxes, ImageList, Instances, pairwise_iou
+from detectron2.utils.registry import Registry
 
-# TODO: there are some hard codes! remember to review.
+__all__ = ["GraphConnection", "GraphConnection_separated", "GRAPH_CONNECTION_REGISTRY", "build_graph_connection"]
+GRAPH_CONNECTION_REGISTRY = Registry("GRAPH_CONNECTION")
+GRAPH_CONNECTION_REGISTRY.__doc__ = """
+Registry for graph connection, which make graph connection modules.
+
+The registered object will be called with `obj(cfg, input_shape)`.
+"""
+
 
 def build_graph_connection(cfg, input_shape):
-    return GraphConnection(cfg, input_shape)
+    name = cfg.GRAPH.NAME
+    return GRAPH_CONNECTION_REGISTRY.get(name)(cfg, input_shape)
 
 
+@GRAPH_CONNECTION_REGISTRY.register()
 class GraphConnection(nn.Module):
     def __init__(self, cfg,
                  input_shape,):
