@@ -18,7 +18,7 @@ from detectron2.modeling.roi_heads.mask_head import build_mask_head
 from detectron2.structures import Boxes, ImageList, Instances, pairwise_iou
 from detectron2.utils.registry import Registry
 
-__all__ = ["GraphConnection", "GraphConnection_separated", "GRAPH_CONNECTION_REGISTRY", "build_graph_connection"]
+__all__ = ["GraphConnection", "GRAPH_CONNECTION_REGISTRY", "build_graph_connection"]
 GRAPH_CONNECTION_REGISTRY = Registry("GRAPH_CONNECTION")
 GRAPH_CONNECTION_REGISTRY.__doc__ = """
 Registry for graph connection, which make graph connection modules.
